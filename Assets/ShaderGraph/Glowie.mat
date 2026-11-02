@@ -54,11 +54,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlowPower: 1.1
+    - _DissolveAmount: 0
+    - _DissolveBorder: 0.03
+    - _GlowPower: 1
+    - _NoiseScale: 80
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _GlowColor: {r: 0, g: 2.6390157, b: 0.6697153, a: 1}
+    - _DissolveBorderColor: {r: 5.886792, g: 1.371044, b: 0, a: 1}
+    - _GlowColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8660198067238683651
